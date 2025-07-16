@@ -182,11 +182,3 @@ Promise.resolve()
         console.error("An error occurred:");
         console.error(error.message || error);
     });
-
-module.exports = {
-    listProfiles,
-    createQuote,
-    createRecipient,
-    createTransfer,
-    runLogic
-};
