@@ -1,15 +1,24 @@
-Instructions
-Create an account in Wise Sandbox.
-[IMP] Click on "Skip onboarding" when asked. If asked for OTP it is always "111111". You may use dummy details to create the account.
-After login, get the API Token from the Settings > Integration and tools > API token. Create a "Full access" token.
-Once you have an API token you can start working on the code.
-You will need to modify the 'index.js' to complete the tasks.
-You can run the code on Replit by clicking the "Run" button at the top (All Node related dependencies will be managed automatically by replit). Alternatively, feel free to download the code and execute it in your preferred code editor. To run the Node.js code in your own environment, ensure that Node.js and npm are installed. Then, run npm install to install the dependencies, and execute the code with node index.js
-Submit the updated code and the console logs.
-You can refer to the API Docs for information.
+# 💸 TransferWise (Wise) API Automation
 
-List Profile
-Create Quote
-Create Recipient
-Create Transfer
-Good luck!
+---
+```bash
+## Sample Output
+Profile ID: 28810501
+
+Quote ID: 6d6fbe67-8b88-4c59-851d-72a86919978c
+
+Recipient will receive: 578.12 GBP
+
+Exchange Rate: 0.5802
+
+Total Fee: 3.61 SGD
+
+Estimated Delivery: in seconds
+
+Recipient ID: 701358500
+
+Transfer ID: 55250302
+
+Transfer Status: incoming_payment_waiting
+
+All tasks completed successfully.
